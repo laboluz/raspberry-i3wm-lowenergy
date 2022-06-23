@@ -106,6 +106,8 @@ sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero
 ---
 ## Install PI Camera libraries
 
+[https://github.com/raspberrypi/picamera2](https://github.com/raspberrypi/picamera2)
+
 ```bash
 sudo apt install libcamera-apps
 sudo apt install -y python3-libcamera python3-kms++
