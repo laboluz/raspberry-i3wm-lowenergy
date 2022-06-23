@@ -39,7 +39,7 @@ First download the Raspberry Pi Imager for your system:
 
 Then install in your RPi micro sd card the raspbian Lite 64 from the list:
 
-![Choose Raspberry PI OS Lite 64](https://github.com/laboluz/raspberry-i3wm-lowenergy/img/rpi_imager_01.png)
+![Choose Raspberry PI OS Lite 64](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rpi_imager_01.png)
 
 Open advanced settings and choose your preferences:
 
@@ -47,7 +47,7 @@ Open advanced settings and choose your preferences:
 - Set username and password
 - Configure wireless LAN ( if not using an ethernet cable )
 
-![Advanced settings](https://github.com/laboluz/raspberry-i3wm-lowenergy/img/advanced_settings.png)
+![Advanced settings](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/advanced_settings.png)
 
 When OS is installed, boot the Pi and start with the dependencies and libraries install.
 
