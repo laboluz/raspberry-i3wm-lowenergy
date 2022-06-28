@@ -11,6 +11,8 @@
 
 - [Install i3](https://github.com/laboluz/raspberry-i3wm-lowenergy#install-i3)
 
+- [Configure Raspberry PI](https://github.com/laboluz/raspberry-i3wm-lowenergy#configure-raspberry-pi)
+
 - [Configure i3](https://github.com/laboluz/raspberry-i3wm-lowenergy#configure-i3)
 
 - [Install python libraries](https://github.com/laboluz/raspberry-i3wm-lowenergy#install-python-libraries)
@@ -71,12 +73,38 @@ sudo reboot
 
 ```bash
 sudo apt install i3 i3lock lightdm xterm suckless-tools
-sudo apt install xrandr fonts-noto network-manager-gnome
+sudo apt install x11-session-utils fonts-noto network-manager-gnome
 sudo apt install rofi lxappearance arc-theme scrot feh nitrogen xcompmgr
 sudo apt purge openresolv dhcpcd5
 sudo apt install firefox-esr unzip eog git
 sudo reboot
 ```
+
+---
+## Configure Raspberry PI
+
+```bash
+sudo raspi-config
+```
+
+Then configure your keyboard layout
+
+![Keyboard layout config](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_01.jpg)
+
+![Keyboard layout config](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_02.jpg)
+
+![Keyboard layout config](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_03.jpg)
+
+and set auto-login to desktop ( i3 )
+
+![Boot Auto-login](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_08.jpg)
+
+![Boot Auto-login](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_09.jpg)
+
+![Boot Auto-login](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_10.jpg)
+
+reboot
+
 ---
 ## Configure i3
 
