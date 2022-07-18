@@ -19,6 +19,8 @@
 
 - [Install PI camera libraries](https://github.com/laboluz/raspberry-i3wm-lowenergy#install-pi-camera-libraries)
 
+- [Install OpenCV2 libraries](https://github.com/laboluz/raspberry-i3wm-lowenergy#install-opencv2-libraries)
+
 - [Install VS code editor](https://github.com/laboluz/raspberry-i3wm-lowenergy#install-vs-code-editor)
 
 - [I3 Shortcuts](https://github.com/laboluz/raspberry-i3wm-lowenergy#i3-shorcuts)
@@ -136,6 +138,8 @@ sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero
 
 [https://github.com/raspberrypi/picamera2](https://github.com/raspberrypi/picamera2)
 
+[https://datasheets.raspberrypi.com/camera/picamera2-manual-draft.pdf](https://datasheets.raspberrypi.com/camera/picamera2-manual-draft.pdf)
+
 ```bash
 sudo apt install libcamera-apps
 sudo apt install -y python3-libcamera python3-kms++
@@ -145,11 +149,18 @@ sudo pip install picamera2
 ```
 
 ---
+## Install OpenCV2 libraries
+
+```bash
+sudo apt install python3-opencv
+```
+
+---
 ## Install VS code editor
 
 Open https://code.visualstudio.com/Download
 
-and download .deb ARM 64 version
+and download .deb ARM 64 version ( check the version number for the bash command, could be different from the one in the code below )
 
 ```bash
 cd ~/Downloads
