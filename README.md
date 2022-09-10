@@ -133,6 +133,13 @@ sudo apt install librtlsdr0 librtlsdr-dev python3-pip python3-pygame libxml2-dev
 sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero psutil
 ```
 
+Install pijuice solar power supply hat:
+
+```bash
+sudo apt install pijuice-base
+```
+
+
 ---
 ## Install PI Camera libraries
 
