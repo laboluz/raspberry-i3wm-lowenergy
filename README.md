@@ -135,6 +135,8 @@ sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero psutil
 
 Install pijuice solar power supply hat:
 
+[https://github.com/PiSupply/PiJuice](https://github.com/PiSupply/PiJuice)
+
 ```bash
 sudo apt install pijuice-base
 ```
