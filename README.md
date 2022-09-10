@@ -130,7 +130,7 @@ sudo reboot
 ```bash
 sudo apt install librtlsdr0 librtlsdr-dev python3-pip python3-pygame libxml2-dev gqrx-sdr
 
-sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero
+sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero psutil
 ```
 
 ---
