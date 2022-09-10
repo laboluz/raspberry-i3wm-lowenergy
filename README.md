@@ -145,7 +145,7 @@ sudo apt install libcamera-apps
 sudo apt install -y python3-libcamera python3-kms++
 sudo apt install -y python3-pyqt5 python3-prctl libatlas-base-dev ffmpeg
 sudo pip install numpy --upgrade
-sudo pip install picamera2
+sudo apt install -y python3-picamera2
 ```
 
 ---
