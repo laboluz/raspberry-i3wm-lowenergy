@@ -128,9 +128,9 @@ sudo reboot
 ## Install python libraries
 
 ```bash
-sudo apt install librtlsdr0 librtlsdr-dev python3-pip python3-pygame libxml2-dev gqrx-sdr
+sudo apt install librtlsdr0 librtlsdr-dev python3-pip python3-pygame libxml2-dev gqrx-sdr libportaudio2 libportaudiocpp0 portaudio19-dev
 
-sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero psutil
+sudo pip install pyrtlsdr matplotlib numpy pygame gpiozero psutil pyaudio
 ```
 
 Install pijuice solar power supply hat:
