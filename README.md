@@ -97,13 +97,21 @@ Then configure your keyboard layout
 
 ![Keyboard layout config](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_03.jpg)
 
-and set auto-login to desktop ( i3 )
+set auto-login to desktop ( i3 )
 
 ![Boot Auto-login](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_08.jpg)
 
 ![Boot Auto-login](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_09.jpg)
 
 ![Boot Auto-login](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_10.jpg)
+
+and set gpu memory to 256 MB (max)
+
+![GPU memory](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_04.jpg)
+
+![GPU memory](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_05.jpg)
+
+![GPU memory](https://github.com/laboluz/raspberry-i3wm-lowenergy/raw/main/img/rp_06.jpg)
 
 reboot
 
