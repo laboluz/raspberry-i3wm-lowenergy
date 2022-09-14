@@ -34,6 +34,15 @@ Base system for low energy raspberry pi 4+ with I3-wm window manager, python lib
 
 Suited for applications with low energy and speed requirements.
 
+If needed, this setting is perfect to use with PiJuice solar kit ( battery, solar panel and hat with charge controller and more stuff )
+
+More info about PiJuice here:
+
+[PiJuice github](https://github.com/PiSupply/PiJuice)
+
+[PiJuice instructions](https://learn.pi-supply.com/make/how-to-setup-connect-your-pijuice-battery/)
+
+
 ---
 ## Raspberry PI OS Lite 64 Install
 
